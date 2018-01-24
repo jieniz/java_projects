@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Nov 22 02:10:40 ACDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-015f-df3d-09c7-00000b880ef0 
+on database directory /Users/jieni/NetBeansProjects/A5_Task1/EmployeeDB with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/Users/jieni/NetBeansProjects/A5_Task1/dist/run549157389/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_141-b15
+user.dir=/Users/jieni/NetBeansProjects/A5_Task1
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

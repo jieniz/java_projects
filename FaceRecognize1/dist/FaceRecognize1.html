@@ -1,0 +1,47 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'FaceRecognize1.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJGYWNlUmVjb2duaXplMS5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+RmFjZVJlY29nbml6ZTE8L3RpdGxlPgogICAgPHZlbmRvcj5qaWVuaTwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgamF2YS12bS1hcmdzPSItRGphdmEubGlicmFyeS5wYXRoPS9Vc2Vycy9qaWVuaS9vcGVuY3YtMy4zLjEvYnVpbGQvbGliICIgIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4KICAgIDxqYXIgaHJlZj0iRmFjZVJlY29nbml6ZTEuamFyIiBzaXplPSIxMzYxMSIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvamF2YWNwcC5qYXIiIHNpemU9IjMyOTkwNCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvamF2YWN2LmphciIgc2l6ZT0iMzg2NTcxIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vcGVuY3YtMzMxLmphciIgc2l6ZT0iNDA3ODAzIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vcGVuY3YtbWFjb3N4LXg4Nl82NC5qYXIiIHNpemU9IjExMTc2ODAwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vcGVuY3YuamFyIiBzaXplPSI3NDgzMDMiIGRvd25sb2FkPSJlYWdlciIgLz4KICA8L3Jlc291cmNlcz4KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkZhY2VSZWNvZ25pemUxIiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iZmFjZXJlY29nbml6ZTEuRmFjZVJlY29nbml6ZTEiICBuYW1lPSJGYWNlUmVjb2duaXplMSIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+',
+                jvmargs : '-Djava.library.path=/Users/jieni/opencv-3.3.1/build/lib '
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedfacerecognize1() {
+        dtjava.embed(
+            {
+                id : 'facerecognize1',
+                url : 'FaceRecognize1.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJGYWNlUmVjb2duaXplMS5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+RmFjZVJlY29nbml6ZTE8L3RpdGxlPgogICAgPHZlbmRvcj5qaWVuaTwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgamF2YS12bS1hcmdzPSItRGphdmEubGlicmFyeS5wYXRoPS9Vc2Vycy9qaWVuaS9vcGVuY3YtMy4zLjEvYnVpbGQvbGliICIgIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4KICAgIDxqYXIgaHJlZj0iRmFjZVJlY29nbml6ZTEuamFyIiBzaXplPSIxMzYxMSIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvamF2YWNwcC5qYXIiIHNpemU9IjMyOTkwNCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvamF2YWN2LmphciIgc2l6ZT0iMzg2NTcxIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vcGVuY3YtMzMxLmphciIgc2l6ZT0iNDA3ODAzIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vcGVuY3YtbWFjb3N4LXg4Nl82NC5qYXIiIHNpemU9IjExMTc2ODAwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9vcGVuY3YuamFyIiBzaXplPSI3NDgzMDMiIGRvd25sb2FkPSJlYWdlciIgLz4KICA8L3Jlc291cmNlcz4KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkZhY2VSZWNvZ25pemUxIiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iZmFjZXJlY29nbml6ZTEuRmFjZVJlY29nbml6ZTEiICBuYW1lPSJGYWNlUmVjb2duaXplMSIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+',
+                jvmargs : '-Djava.library.path=/Users/jieni/opencv-3.3.1/build/lib '
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedfacerecognize1);
+</script>
+
+</head><body>
+<h2>Test page for <b>FaceRecognize1</b></h2>
+  <b>Webstart:</b> <a href='FaceRecognize1.jnlp' onclick="return launchApplication('FaceRecognize1.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

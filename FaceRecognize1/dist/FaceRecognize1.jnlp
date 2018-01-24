@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FaceRecognize1.jnlp">
+  <information>
+    <title>FaceRecognize1</title>
+    <vendor>jieni</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path=/Users/jieni/opencv-3.3.1/build/lib "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FaceRecognize1.jar" size="13611" download="eager" />
+    <jar href="lib/javacpp.jar" size="329904" download="eager" />
+    <jar href="lib/javacv.jar" size="386571" download="eager" />
+    <jar href="lib/opencv-331.jar" size="407803" download="eager" />
+    <jar href="lib/opencv-macosx-x86_64.jar" size="11176800" download="eager" />
+    <jar href="lib/opencv.jar" size="748303" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FaceRecognize1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="facerecognize1.FaceRecognize1"  name="FaceRecognize1" />
+  <update check="always"/>
+</jnlp>

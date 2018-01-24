@@ -1,0 +1,11 @@
+Registered Customer Information
+
+Name                 Address                                                                                             
+----                 -------                                                                                             
+Jieni Zhang          30 Victoria Street                                                                                  
+Angela Guo           30 Victoria Street                                                                                  
+Derek Mason          30 Victoria Street                                                                                  
+Ying Chen            12 King William Street                                                                              
+Junkai Fu            300 Victoria Square                                                                                 
+Wanghui Li           30 Victoria Street                                                                                  
+Micheal Pan          18 King William Street                                                                              

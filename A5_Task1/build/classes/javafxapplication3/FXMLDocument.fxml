@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="621.0" prefWidth="903.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.FXMLDocumentController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="162.0" layoutY="96.0" prefHeight="416.0" prefWidth="577.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="menuLabel" layoutX="70.0" layoutY="33.0" text="Main Menu">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="displayButton" alignment="CENTER" defaultButton="true" layoutY="373.0" mnemonicParsing="false" onAction="#handleDisplayButton" text="Display All Records" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="373.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <MenuButton layoutY="423.0" mnemonicParsing="false" text="Display Information" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                    <items>
+                      <MenuItem fx:id="info1" mnemonicParsing="false" onAction="#HandleInfo1" text="Staff displayed by position" />
+                      <MenuItem fx:id="info2" mnemonicParsing="false" onAction="#HandleInfo2" text="Staff earning the least salaries" />
+                        <MenuItem fx:id="info3" mnemonicParsing="false" onAction="#HandleInfo3" text="Staff earning the highest salaries" />
+                        <MenuItem fx:id="info4" mnemonicParsing="false" onAction="#HandleInfo4" text="Staff earning above average salaries" />
+                        <MenuItem fx:id="info5" mnemonicParsing="false" onAction="#HandleInfo5" text="Staff earning more than $55000" />
+                    </items>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </MenuButton>
+                  <Button fx:id="dataButton" layoutY="275.0" mnemonicParsing="false" onAction="#HandleDataButton" text="Enter New Data" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="text1" layoutX="83.0" layoutY="97.0" />
+                  <TextField fx:id="text2" layoutX="83.0" layoutY="124.0" />
+                  <TextField fx:id="text3" layoutX="83.0" layoutY="151.0" />
+                  <TextField fx:id="Text4" layoutX="83.0" layoutY="178.0" />
+                  <TextField fx:id="Text5" layoutX="83.0" layoutY="205.0" />
+                  <Label layoutX="14.0" layoutY="102.0" text="FirstName" />
+                  <Label layoutX="15.0" layoutY="129.0" text="LastName" />
+                  <Label layoutX="22.0" layoutY="156.0" text="Position" />
+                  <Label layoutX="27.0" layoutY="183.0" text="Salary" />
+                  <Label layoutX="35.0" layoutY="210.0" text="Age" />
+                  <Label fx:id="warning" layoutX="129.0" layoutY="249.0" prefHeight="17.0" prefWidth="0.0" textAlignment="CENTER" textFill="#bf0505" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                  <Button fx:id="chartButton" layoutY="474.0" mnemonicParsing="false" onAction="#HandleChartButton" text="Display Salary Chart" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="textPane" prefHeight="619.0" prefWidth="629.0">
+               <children>
+                  <BarChart fx:id="chart" legendSide="TOP" prefHeight="619.0" prefWidth="629.0" title="SALARY CHART" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <xAxis>
+                      <CategoryAxis animated="false" label="POSITION" fx:id="x">
+                           <tickLabelFont>
+                              <Font size="13.0" />
+                           </tickLabelFont></CategoryAxis>
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="y" animated="false" label="SALARY" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+                  <TextArea fx:id="record" editable="false" prefHeight="619.0" prefWidth="629.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font></TextArea>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+Items of Jieni's Juice Shop
+
+Item                    Price
+----                    -----
+Apple Juice              6.00
+Orange Juice             6.50
+Pineapple Juice          7.00
+Banana Juice             7.00
+Strawberry Juice         7.50
+Apricot Juice            8.00
