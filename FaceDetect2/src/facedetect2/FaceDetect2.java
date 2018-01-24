@@ -41,7 +41,6 @@ public class FaceDetect2 extends Application {
 
             // init the controller
             FXMLDocumentController controller = loader.getController();
-
             // set the proper behavior on closing the application
             stage.setOnCloseRequest((new EventHandler<WindowEvent>() {
                 public void handle(WindowEvent we) {
@@ -60,5 +59,4 @@ public class FaceDetect2 extends Application {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         launch(args);
     }
-
 }
