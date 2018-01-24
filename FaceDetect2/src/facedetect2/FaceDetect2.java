@@ -23,15 +23,8 @@ public class FaceDetect2 extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-//        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-//        
-//        Scene scene = new Scene(root, 800, 600);
-//        
-//        stage.setScene(scene);
-//        stage.show();
 
         try {
-            // load the FXML resource
             FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
             BorderPane root = (BorderPane) loader.load();
             // set a whitesmoke background
