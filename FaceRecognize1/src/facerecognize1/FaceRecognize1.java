@@ -33,7 +33,6 @@ public class FaceRecognize1 extends Application {
             Scene scene = new Scene(root, 800, 600);
             //scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             // create the stage with the given title and the previously created
-            // scene
             stage.setTitle("Face Detection and Tracking");
             stage.setScene(scene);
             // show the GUI
