@@ -1,2 +1,3 @@
 # java
-my first semester java learning at CMUA
+
+Projects for 95-712 Object Oriented Programming in Java.
